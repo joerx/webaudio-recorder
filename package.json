@@ -1,0 +1,34 @@
+{
+  "name": "webaudio-recorder",
+  "version": "0.0.1",
+  "description": "Running: `npm install && npm start`",
+  "main": "src/js/index.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "postinstall": "npm run build",
+    "dev-server": "webpack-dev-server --inline",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Joerg Henning <henning.joerg@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "engines": {
+    "node": "~4.4.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joerx/webaudio-recorder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joerx/webaudio-recorder/issues"
+  },
+  "homepage": "https://github.com/joerx/webaudio-recorder#readme"
+}
